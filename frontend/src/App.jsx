@@ -2,6 +2,8 @@ import { Navigate, Route, Routes } from 'react-router'
 import HomePage from './pages/HomePage'
 import ProblemsPage from './pages/ProblemsPage'
 import { Toaster } from 'react-hot-toast'
+import { useUser } from '@clerk/clerk-react'
+
 
 
 function App() {
